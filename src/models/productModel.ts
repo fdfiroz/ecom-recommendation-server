@@ -1,19 +1,17 @@
-import { Db } from 'mongodb';
+// models/productModel.js
 
-class Product {
-  private collection;
+import { getDB } from "../config/database";
 
-  constructor(db: Db) {
-    this.collection = db.collection('products');
+
+export const getBestSellersByCategory = async (categories: string[], wishlistProductIds: string[], limit: number) => {
+  const db = getDB();
+
+  if (!db) {
+    throw new Error('Database connection is not available.');
   }
 
-  async getBestSellersByCategory(categories: string[], limit: number) {
-    return this.collection.aggregate([
-      { $match: { category: { $in: categories } } },
-      { $sort: { sales: -1 } },
-      { $limit: limit },
-    ]).toArray();
-  }
-}
-
-export default Product;
+  return db.collection('products').find({
+    category: { $in: categories },
+    productId: { $nin: wishlistProductIds }
+  }).sort({ sales: -1 }).limit(limit).toArray();
+};
