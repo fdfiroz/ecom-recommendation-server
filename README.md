@@ -1,6 +1,4 @@
-Sure! Here is a README file for your project:
 
-```markdown
 # E-Commerce Recommendation System
 
 This project implements a backend service that suggests products to a client based on their wishlist, search history, and browsing history. The service is built using Node.js and MongoDB, and it follows the MVC (Model-View-Controller) architecture.
