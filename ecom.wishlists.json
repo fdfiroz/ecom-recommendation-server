@@ -1,0 +1,17 @@
+[{
+  "clientId": "client1",
+  "products": [
+    "p1",
+    "p2"
+  ]
+},
+{
+  "clientId": "client2",
+  "products": [
+    "p3"
+  ]
+},
+{
+  "clientId": "client3",
+  "products": []
+}]

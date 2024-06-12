@@ -1,0 +1,250 @@
+[{
+  "productId": "p1",
+  "name": "Smartphone A",
+  "category": "Electronics",
+  "price": 699.99,
+  "description": "High-end smartphone with 128GB storage",
+  "imageURL": "http://example.com/smartphoneA.jpg",
+  "stock": 100,
+  "sales": 500
+},
+{
+  "productId": "p2",
+  "name": "Laptop B",
+  "category": "Electronics",
+  "price": 1199.99,
+  "description": "Powerful laptop with 16GB RAM",
+  "imageURL": "http://example.com/laptopB.jpg",
+  "stock": 50,
+  "sales": 200
+},
+{
+  "productId": "p3",
+  "name": "Headphones C",
+  "category": "Electronics",
+  "price": 199.99,
+  "description": "Noise-cancelling headphones",
+  "imageURL": "http://example.com/headphonesC.jpg",
+  "stock": 150,
+  "sales": 300
+},
+{
+  "productId": "p4",
+  "name": "Smartwatch D",
+  "category": "Electronics",
+  "price": 299.99,
+  "description": "Smartwatch with health tracking",
+  "imageURL": "http://example.com/smartwatchD.jpg",
+  "stock": 80,
+  "sales": 120
+},
+{
+  "productId": "p5",
+  "name": "Book E",
+  "category": "Books",
+  "price": 19.99,
+  "description": "Bestselling novel",
+  "imageURL": "http://example.com/bookE.jpg",
+  "stock": 200,
+  "sales": 400
+},
+{
+  "productId": "p6",
+  "name": "Cookbook F",
+  "category": "Books",
+  "price": 29.99,
+  "description": "Gourmet recipes for home chefs",
+  "imageURL": "http://example.com/cookbookF.jpg",
+  "stock": 100,
+  "sales": 150
+},
+{
+  "productId": "p7",
+  "name": "Children's Book G",
+  "category": "Books",
+  "price": 14.99,
+  "description": "Illustrated children's story",
+  "imageURL": "http://example.com/childrensbookG.jpg",
+  "stock": 120,
+  "sales": 250
+},
+{
+  "productId": "p8",
+  "name": "History Book H",
+  "category": "Books",
+  "price": 24.99,
+  "description": "Detailed history of ancient civilizations",
+  "imageURL": "http://example.com/historybookH.jpg",
+  "stock": 70,
+  "sales": 90
+},
+{
+  "productId": "p9",
+  "name": "Blender I",
+  "category": "Home",
+  "price": 49.99,
+  "description": "High-speed blender",
+  "imageURL": "http://example.com/blenderI.jpg",
+  "stock": 60,
+  "sales": 80
+},
+{
+  "productId": "p10",
+  "name": "Vacuum Cleaner J",
+  "category": "Home",
+  "price": 149.99,
+  "description": "Robotic vacuum cleaner",
+  "imageURL": "http://example.com/vacuumcleanerJ.jpg",
+  "stock": 40,
+  "sales": 60
+},
+{
+  "productId": "p11",
+  "name": "Coffee Maker K",
+  "category": "Home",
+  "price": 79.99,
+  "description": "Automatic coffee maker",
+  "imageURL": "http://example.com/coffeemakerK.jpg",
+  "stock": 90,
+  "sales": 120
+},
+{
+  "productId": "p12",
+  "name": "Air Fryer L",
+  "category": "Home",
+  "price": 99.99,
+  "description": "Compact air fryer",
+  "imageURL": "http://example.com/airfryerL.jpg",
+  "stock": 100,
+  "sales": 150
+},
+{
+  "productId": "p13",
+  "name": "Yoga Mat M",
+  "category": "Sports",
+  "price": 29.99,
+  "description": "Non-slip yoga mat",
+  "imageURL": "http://example.com/yogamatM.jpg",
+  "stock": 70,
+  "sales": 130
+},
+{
+  "productId": "p14",
+  "name": "Dumbbell Set N",
+  "category": "Sports",
+  "price": 59.99,
+  "description": "Adjustable dumbbell set",
+  "imageURL": "http://example.com/dumbbellsetN.jpg",
+  "stock": 50,
+  "sales": 90
+},
+{
+  "productId": "p15",
+  "name": "Treadmill O",
+  "category": "Sports",
+  "price": 499.99,
+  "description": "Foldable treadmill",
+  "imageURL": "http://example.com/treadmillO.jpg",
+  "stock": 20,
+  "sales": 30
+},
+{
+  "productId": "p16",
+  "name": "Running Shoes P",
+  "category": "Sports",
+  "price": 79.99,
+  "description": "Lightweight running shoes",
+  "imageURL": "http://example.com/runningshoesP.jpg",
+  "stock": 100,
+  "sales": 180
+},
+{
+  "productId": "p17",
+  "name": "Desk Chair Q",
+  "category": "Furniture",
+  "price": 149.99,
+  "description": "Ergonomic desk chair",
+  "imageURL": "http://example.com/deskchairQ.jpg",
+  "stock": 30,
+  "sales": 50
+},
+{
+  "productId": "p18",
+  "name": "Bookshelf R",
+  "category": "Furniture",
+  "price": 99.99,
+  "description": "5-tier wooden bookshelf",
+  "imageURL": "http://example.com/bookshelfR.jpg",
+  "stock": 40,
+  "sales": 70
+},
+{
+  "productId": "p19",
+  "name": "Sofa S",
+  "category": "Furniture",
+  "price": 799.99,
+  "description": "Sectional sofa",
+  "imageURL": "http://example.com/sofaS.jpg",
+  "stock": 10,
+  "sales": 15
+},
+{
+  "productId": "p20",
+  "name": "Dining Table T",
+  "category": "Furniture",
+  "price": 499.99,
+  "description": "6-seater dining table",
+  "imageURL": "http://example.com/diningtableT.jpg",
+  "stock": 15,
+  "sales": 25
+},
+{
+  "productId": "p21",
+  "name": "Winter Jacket U",
+  "category": "Clothing",
+  "price": 129.99,
+  "description": "Waterproof winter jacket",
+  "imageURL": "http://example.com/winterjacketU.jpg",
+  "stock": 50,
+  "sales": 80
+},
+{
+  "productId": "p22",
+  "name": "Jeans V",
+  "category": "Clothing",
+  "price": 49.99,
+  "description": "Slim fit jeans",
+  "imageURL": "http://example.com/jeansV.jpg",
+  "stock": 100,
+  "sales": 200
+},
+{
+  "productId": "p23",
+  "name": "T-Shirt W",
+  "category": "Clothing",
+  "price": 19.99,
+  "description": "Cotton t-shirt",
+  "imageURL": "http://example.com/tshirtW.jpg",
+  "stock": 150,
+  "sales": 300
+},
+{
+  "productId": "p24",
+  "name": "Dress X",
+  "category": "Clothing",
+  "price": 69.99,
+  "description": "Summer dress",
+  "imageURL": "http://example.com/dressX.jpg",
+  "stock": 80,
+  "sales": 120
+},
+{
+  "productId": "p25",
+  "name": "Bluetooth Speaker Y",
+  "category": "Electronics",
+  "price": 49.99,
+  "description": "Portable Bluetooth speaker",
+  "imageURL": "http://example.com/bluetoothspeakerY.jpg",
+  "stock": 100,
+  "sales": 250
+}]

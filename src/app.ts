@@ -1,7 +1,9 @@
 // app.js
-import express from 'express';
+import express, { Request, Response } from 'express';
+
 import dotenv from 'dotenv';
 import recommendationRoutes from './routes/recommendationRoutes';
+const PORT = process.env.PORT || 3000;
 
 dotenv.config();
 
@@ -20,8 +22,9 @@ const app = express();
 app.use(express.json());
 
 app.use('/api/v1', recommendationRoutes);
-
-const PORT = process.env.PORT || 3000;
+app.get('/', (req:Request, res:Response) => {
+  res.send('Welcome to the Recommendations API');
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

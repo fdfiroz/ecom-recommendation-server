@@ -1,0 +1,19 @@
+[{
+  "clientId": "client1",
+  "categories": [
+    "Electronics",
+    "Books"
+  ]
+},
+{
+  "clientId": "client2",
+  "categories": [
+    "Home"
+  ]
+},
+{
+  "clientId": "client3",
+  "categories": [
+    "Books"
+  ]
+}]
